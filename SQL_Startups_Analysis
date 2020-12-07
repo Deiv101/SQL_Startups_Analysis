@@ -29,7 +29,7 @@ FROM startups;
 SELECT AVG(valuation)
 FROM startups;
 
---8.
+--8. group by
 SELECT AVG(valuation)
 FROM startups
 GROUP BY category;
