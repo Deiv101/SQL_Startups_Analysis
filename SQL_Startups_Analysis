@@ -7,7 +7,7 @@ LIMIT 3;
 SELECT COUNT(name)
 FROM startups;
 
---3.
+--3. Sum of everything under valuation field
 SELECT SUM(valuation)
 FROM startups;
 
