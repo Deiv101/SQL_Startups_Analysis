@@ -11,7 +11,7 @@ FROM startups;
 SELECT SUM(valuation)
 FROM startups;
 
---4.
+--4. Maximum amount raised under "raised" field, then rename it
 SELECT MAX(raised) AS 'Highest amount raised by a startup'
 FROM startups;
 
