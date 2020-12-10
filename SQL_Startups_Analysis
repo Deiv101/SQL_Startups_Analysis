@@ -27,6 +27,7 @@ SELECT MAX(raised) AS 'Highest raised at Seed stage'
   WHERE stage = 'Seed';
 
 --6.Maximum amount raised under "founded" field, then rename it
+
 SELECT MIN(founded) AS 'The oldest startup was founded in'
 FROM startups;
 
