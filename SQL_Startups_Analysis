@@ -5,6 +5,7 @@ SELECT *
   LIMIT 3;
 
 --2. The total number of companies in the table
+
 SELECT COUNT(name)
 FROM startups;
 
