@@ -33,7 +33,7 @@ SELECT MIN(founded) AS 'The oldest startup was founded in'
 
 --7. Average valuation
 SELECT AVG(valuation)
-FROM startups;
+ FROM startups;
 
 --8. Group By
 SELECT AVG(valuation)
