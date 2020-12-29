@@ -82,6 +82,8 @@ ________________________________________________________________________________
 SELECT location, AVG(employees)
 FROM startups
 GROUP BY location;
+_______________________________________________________________________________________________________________
+
 
 --14. The average size of a startup in each location, with average sizes above 500
 SELECT location, AVG(employees)
