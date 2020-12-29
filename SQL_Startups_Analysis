@@ -28,6 +28,7 @@ ________________________________________________________________________________
 SELECT MAX(raised) AS 'Highest raised at Seed stage'
  FROM startups
   WHERE stage = 'Seed';
+_______________________________________________________________________________________________________________
 
 --6.Maximum amount raised under "founded" field, then rename it
 
