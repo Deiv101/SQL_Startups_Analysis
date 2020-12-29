@@ -75,6 +75,8 @@ SELECT category AS 'Category', COUNT(name) AS 'Total number of companies'
 FROM startups
 GROUP BY category
 HAVING COUNT(*);
+_______________________________________________________________________________________________________________
+
 
 --13.The average size of a startup in each location
 SELECT location, AVG(employees)
