@@ -55,6 +55,7 @@ SELECT ROUND(AVG(valuation),2)
 FROM startups
 GROUP BY category;
 
+_______________________________________________________________________________________________________________
 --10.Return the average valuation, in each category.Round the averages to two decimal places.
 -- Lastly, order the list from highest averages to lowest.
 SELECT ROUND(AVG(valuation),2)
