@@ -63,6 +63,7 @@ FROM startups
 GROUP BY category
 ORDER BY 1 DESC;
 
+_______________________________________________________________________________________________________________
 --11.Return the name of each category with the total number of companies that belong to it
 SELECT category AS 'Category', COUNT(name) AS 'Total number of companies'
 FROM startups
