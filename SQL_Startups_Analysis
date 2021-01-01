@@ -61,7 +61,7 @@ ________________________________________________________________________________
 SELECT category AS 'Category', COUNT(name) AS 'Total number of companies'
 FROM startups
 GROUP BY category;
-_______________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________________________________________
 --12. Filter the result to only include categories that have more than three companies in them.
 SELECT category AS 'Category', COUNT(name) AS 'Total number of companies'
 FROM startups
