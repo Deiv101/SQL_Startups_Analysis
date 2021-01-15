@@ -1,7 +1,7 @@
 --1. A look at the startups table: 
 
 SELECT *   
- FROM startups        
+ FROM startups         
   LIMIT 3;               
 __________________________________________________________________________________________________________________________________________________________________
 --2. The total number of companies in the table
